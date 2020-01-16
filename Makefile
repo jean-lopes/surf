@@ -41,6 +41,7 @@ surf: $(OBJ) $(COBJ)
 	$(CC) $(SURFLDFLAGS) $(LDFLAGS) -o $@ $(OBJ) $(COBJ) $(LIBS)
 
 clean:
+	rm -f *.orig *.rej config.h
 	rm -f surf $(OBJ) $(COBJ)
 	rm -f libsurf-webext.so $(WEBEXTOBJ)
 
