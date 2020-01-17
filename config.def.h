@@ -209,5 +209,7 @@ static Button buttons[] = {
 
 static SearchEngine searchengines[] = {
 	{ "g",   "http://www.google.de/search?q=%s"   },
-	{ "leo", "http://dict.leo.org/ende?search=%s" },
+	{ "dict", "http://dict.leo.org/ende?search=%s" },
+	{ "en", "https://translate.google.com/#en/pt/%s" },
+	{ "br", "https://translate.google.com/#pt/en/%s" },
 };
